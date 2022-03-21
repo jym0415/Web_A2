@@ -44,8 +44,10 @@ li,ul{list-style: none;}
     overflow: hidden;
     text-align: center;  
     min-width: 120px;
-    background-color: lightgreen;  
+    background-color: rgb(76, 139, 76);  
 }
+
+.d2ul  a{color: white;}
 #gnb:hover .d2ul{
     height: 150px;
     z-index: 999;
@@ -58,7 +60,7 @@ li,ul{list-style: none;}
 #gnb:after{
     content: '';
     left: 0; right: 0; top: 100px;
-    background-color: lightgreen;
+    background-color: rgb(76, 139, 76);
     transition: height 0.5s;
     height: 0;
     overflow: hidden;
